@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T08:42:58.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="RusnZTFtlHMqC6Jupt_b" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T08:43:13.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="EfvDSd6Mf7vhk2bvtD5k" version="14.4.2" type="github">
   <diagram id="GpX_KGbuKBTbFi5aBIEI" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,9 +19,6 @@
         <mxCell id="wTJdK8XsI3bZiximvj9C-5" value="DiskFileRead.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="60" y="400" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wTJdK8XsI3bZiximvj9C-14" value="类加载" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="wTJdK8XsI3bZiximvj9C-6" target="wTJdK8XsI3bZiximvj9C-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="wTJdK8XsI3bZiximvj9C-6" value="DiskFileRead.class" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="60" y="550" width="150" height="60" as="geometry" />
         </mxCell>
@@ -36,6 +33,13 @@
         </mxCell>
         <mxCell id="wTJdK8XsI3bZiximvj9C-12" value="方法区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="270.5" y="790" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wTJdK8XsI3bZiximvj9C-14" value="类加载" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="wTJdK8XsI3bZiximvj9C-6" target="wTJdK8XsI3bZiximvj9C-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="873" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

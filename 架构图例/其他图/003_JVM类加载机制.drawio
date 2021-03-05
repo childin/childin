@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T05:42:38.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="tZWqpJ5jNCbqM28Tt0aG" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T05:45:02.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="8nPqwyrUVYEvt45tPShr" version="14.4.2" type="github">
   <diagram id="xRmWGk2ad85_B9DvnGz3" name="第 1 页">
     <mxGraphModel dx="2249" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,6 +128,42 @@
         </mxCell>
         <mxCell id="4q1zAIv1EgsqxbFNVJgR-33" value="初始化：&lt;br&gt;1、一般来说类的加载时机是类在初始化实例，或者包含main()方法的主类被加载，需要马上初始化的时候才会被触发。&lt;br&gt;2、初始化过程中会初始化类变量中的值，也就是实际的值，而不是准备阶段给的默认值。&lt;br&gt;3、同时static修饰的静态代码块也会在初始化阶段执行。&lt;br&gt;4、需要注意的是，在初始化类时，如果这个类是子类，会先初始化他的父类。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4q1zAIv1EgsqxbFNVJgR-65">
           <mxGeometry x="413" y="830" width="362" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-66" value="双亲委派机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="520" width="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-67" target="4q1zAIv1EgsqxbFNVJgR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-67" value="启动类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="585" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-68" target="4q1zAIv1EgsqxbFNVJgR-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-68" target="4q1zAIv1EgsqxbFNVJgR-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-68" target="4q1zAIv1EgsqxbFNVJgR-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-68" value="应用类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="780" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-69" target="4q1zAIv1EgsqxbFNVJgR-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-69" value="拓展类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="680" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-70" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="880" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-72" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="880" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-73" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="880" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

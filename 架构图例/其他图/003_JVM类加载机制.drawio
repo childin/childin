@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T05:28:01.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="zjf2XpHG4PzAvYxZMa7W" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T05:36:58.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="BCs7R7PyHXw2L8dnqfVc" version="14.4.2" type="github">
   <diagram id="xRmWGk2ad85_B9DvnGz3" name="第 1 页">
-    <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4q1zAIv1EgsqxbFNVJgR-4" value="类加载过程：加载-&amp;gt;验证-&amp;gt;准备-&amp;gt;解析-&amp;gt;初始化-&amp;gt;使用-&amp;gt;卸载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="-10" width="380" height="20" as="geometry" />
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-4" value="类加载过程：加载-&amp;gt;验证-&amp;gt;准备-&amp;gt;解析-&amp;gt;初始化-&amp;gt;使用-&amp;gt;卸载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-10" width="610" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4q1zAIv1EgsqxbFNVJgR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-5" target="4q1zAIv1EgsqxbFNVJgR-11">
           <mxGeometry relative="1" as="geometry" />
@@ -77,6 +77,48 @@
         </mxCell>
         <mxCell id="4q1zAIv1EgsqxbFNVJgR-37" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
           <mxGeometry x="245" y="30" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-45" target="4q1zAIv1EgsqxbFNVJgR-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-45" target="4q1zAIv1EgsqxbFNVJgR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-45" target="4q1zAIv1EgsqxbFNVJgR-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q1zAIv1EgsqxbFNVJgR-45" target="4q1zAIv1EgsqxbFNVJgR-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-45" value="类加载器" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-46" value="Bootstrap ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-47" value="Extension ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-48" value="Application ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-49" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="395" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-56" value="加载java安装目录lib下的类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-57" value="加载java安装目录lib\ext下的类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-58" value="加载classpath下的应用类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-59" value="用户自定义类加载器，用于定制化加载需求" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q1zAIv1EgsqxbFNVJgR-60" value="类加载器分类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-20" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

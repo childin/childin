@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T04:07:25.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="PdSh1Qn0iOi7dp5aET7I" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T04:07:51.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="-bZTL32je1swDgkpTCBN" version="14.4.4" type="github">
   <diagram id="Cin4LmTbzPWeP2xjX7Cx" name="Page-1">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="v2iGeY0vWUhogRHJJpxM-29" value="&lt;div style=&quot;text-align: left&quot;&gt;失去引用：方法执行完成后，方法栈帧出栈，堆内存的实例失去引用，此时产生垃圾对象，占用堆内存。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="880" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v2iGeY0vWUhogRHJJpxM-30" value="&lt;div style=&quot;text-align: left&quot;&gt;垃圾回收：垃圾回收线程执行垃圾回收，清理没有被任何方式引用的对象。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="v2iGeY0vWUhogRHJJpxM-30" value="&lt;div style=&quot;text-align: left&quot;&gt;垃圾回收：垃圾回收线程执行垃圾回收，清理没有被任何方式引用的对象，释放内存。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="1240" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="v2iGeY0vWUhogRHJJpxM-33" value="回收没有被引用的对象" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="v2iGeY0vWUhogRHJJpxM-31" target="v2iGeY0vWUhogRHJJpxM-23">

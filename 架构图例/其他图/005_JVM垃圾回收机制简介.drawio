@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T04:07:51.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="-bZTL32je1swDgkpTCBN" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T04:08:51.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="FzMMhlNYGn8VBivqLBnl" version="14.4.4" type="github">
   <diagram id="Cin4LmTbzPWeP2xjX7Cx" name="Page-1">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v2iGeY0vWUhogRHJJpxM-34" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="790" height="980" as="geometry" />
+        </mxCell>
         <mxCell id="rJ6WnB4jMZfpZyY2WUPX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="220" y="470" width="210" height="200" as="geometry" />
         </mxCell>
@@ -152,6 +155,9 @@
         </mxCell>
         <mxCell id="v2iGeY0vWUhogRHJJpxM-31" value="JVM垃圾回收线程" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="620" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2iGeY0vWUhogRHJJpxM-35" value="垃圾回收机制简介" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

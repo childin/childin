@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T03:05:27.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="AbRPUlsjmtJP5ixV6h0V" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T03:06:58.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="aX7kYnaTxOQoZWXbI_7i" version="14.4.7" type="github">
   <diagram id="5ijHEx5X5Nq91W1rm9Qc" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,12 @@
         </mxCell>
         <mxCell id="SIsQI7Nt7-XxvUVROHWF-17" value="2、当垃圾回收器进行回收工作的时候，JVM会停止创建新对象的操作，此时JVM会出现短时间卡顿现象，待垃圾回收工作执行结束后恢复" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="827" y="250" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIsQI7Nt7-XxvUVROHWF-19" value="3、新生代回收会比老年代回收快很多" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="827" y="360" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIsQI7Nt7-XxvUVROHWF-20" value="4、JVM优化实际就是减少垃圾回收次数和频率（虚拟机短暂停顿），提高程序运行效率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="827" y="440" width="193" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

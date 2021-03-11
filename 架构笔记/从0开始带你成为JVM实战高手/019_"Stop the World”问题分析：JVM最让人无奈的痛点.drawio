@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T03:07:23.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="_eBRekF4tHfWdSuF6Rgs" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T03:11:13.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="Lj36YjKhmz8dZbdxMr0N" version="14.4.7" type="github">
   <diagram id="5ijHEx5X5Nq91W1rm9Qc" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="SIsQI7Nt7-XxvUVROHWF-11" value="垃圾回收算法&lt;br&gt;（复制算法）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="519.5" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SIsQI7Nt7-XxvUVROHWF-16" value="1、ParNew垃圾回收器采用复制蒜用运用多线程对内存进行回收&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="SIsQI7Nt7-XxvUVROHWF-16" value="1、ParNew垃圾回收器采用复制算法，运用多线程对内存进行回收" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="740" y="150" width="193" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SIsQI7Nt7-XxvUVROHWF-17" value="2、当垃圾回收器进行回收工作的时候，JVM会停止创建新对象的操作，此时JVM会出现短时间卡顿现象，待垃圾回收工作执行结束后恢复" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">

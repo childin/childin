@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T06:57:33.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.50" etag="q3cI8jDfd_c6X1FfOPos" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T06:57:49.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.50" etag="5NDGE5lcjIkXMRYnhF2q" version="14.4.7" type="github">
   <diagram id="au_tWdvqi8h9I-rKZbzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="g8UI2GeRNX_eKLhDF2_x-3" value="示例代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g8UI2GeRNX_eKLhDF2_x-5" value="-XX:NewSize=5242880 -XX:MaxNewSize=5242880 -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=10485760 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:gc.log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g8UI2GeRNX_eKLhDF2_x-5" value="-XX:NewSize=5242880 -XX:MaxNewSize=5242880 -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=10485760 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:gc.log" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="482" height="90" as="geometry" />
         </mxCell>
         <mxCell id="g8UI2GeRNX_eKLhDF2_x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8UI2GeRNX_eKLhDF2_x-6" target="g8UI2GeRNX_eKLhDF2_x-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g8UI2GeRNX_eKLhDF2_x-6" value="JVM参数配置" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="g8UI2GeRNX_eKLhDF2_x-6" value="JVM参数配置" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="20" y="315" width="120" height="60" as="geometry" />
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T02:13:20.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="0eVlkurj9KMCckMAXP9c" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-01T02:57:43.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="at_aFL3xmA5nAgSqRPAD" version="14.5.3" type="github">
   <diagram id="0kAya-y3L0eqNiJAjyWb" name="第 1 页">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,8 +135,114 @@
         <mxCell id="8Zal4r8ABGyTjFka4S3z-36" value="根据获取的配置文件名拼接配置文件，在配置文件名后面拼接.properties后缀，然后加载配置信息，并封装到AbstractConfiguration子类ConcurrentMapConfiguration中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="696.01" y="920" width="200" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-38" target="8Zal4r8ABGyTjFka4S3z-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-38" value="初始化ApplicationInfoManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1071" y="470" width="170" height="70" as="geometry" />
+          <mxGeometry x="1270" y="470" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-49" value="eurekaClient!=null" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-43" target="8Zal4r8ABGyTjFka4S3z-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-51" value="eurekaClient== null" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-43" target="8Zal4r8ABGyTjFka4S3z-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-43" value="判断eurekaClient是否被初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-47" value="通过eurekaClient获取applicationInfoManager信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="595" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-50" target="8Zal4r8ABGyTjFka4S3z-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-50" value="初始化EurekaInstanceConfig配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-55" value="云端部署" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-52" target="8Zal4r8ABGyTjFka4S3z-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-57" value="自定义环境部署" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-52" target="8Zal4r8ABGyTjFka4S3z-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-52" value="判断部署环境进行配置信息初始化，判断是在云端部署还是在自定义环境部署" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-54" value="如果是云端部署，则初始化CloudInstanceConfig，目前默认采用的亚马逊云端服务进行部署，最终初始化信息保存在amazonInfoConfig中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="970" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-59" value="读取配置信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-56" target="8Zal4r8ABGyTjFka4S3z-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-56" value="初始化MyDataCenterInstanceConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1213.75" y="1110" width="162.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-58" target="8Zal4r8ABGyTjFka4S3z-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-58" target="8Zal4r8ABGyTjFka4S3z-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-58" target="8Zal4r8ABGyTjFka4S3z-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-58" value="在MyDataCenterInstanceConfig的父类PropertisInstanceConfig构造方法中进行配置信息加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1212.5" y="1240" width="165" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-60" value="命名空间namespace配置格式化，在命名空间配置名称后添加&quot;.&quot;，最终为：eureka." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-62" value="获取服务群组配置信息，默认为：unknown" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="1395" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-64" value="通过配置文件eureka-client.propertis获取客户端配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-67" value="初始化客户端配置信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-66" target="8Zal4r8ABGyTjFka4S3z-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-69" value="初始化注册信息管理器" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-66" target="8Zal4r8ABGyTjFka4S3z-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-66" target="8Zal4r8ABGyTjFka4S3z-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-66" value="初始化eurekaClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-71" value="依赖配置信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-76" value="依赖provider" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-68" target="8Zal4r8ABGyTjFka4S3z-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-82" value="信息管理器构建" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-68" target="8Zal4r8ABGyTjFka4S3z-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-68" value="初始化注册信息管理器&lt;br&gt;ApplicationInfoManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="880" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-72" target="8Zal4r8ABGyTjFka4S3z-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-78" value="依赖配置信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Zal4r8ABGyTjFka4S3z-77">
+          <mxGeometry x="-0.2653" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-80" value="调用get()方法获取InstanceInfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-72" target="8Zal4r8ABGyTjFka4S3z-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-72" value="初始化EurekaConfigBasedInstanceInfoProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="877.5" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-79" value="通过依赖的EurekaInstanceConfig信息创建InstanceInfo实例，用于存储注册实例信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1753.75" y="1020" width="182.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-81" value="创建applicationManager实例，并持有依赖的配置信息EurekaInstanceConfig和服务注册实例信息InstanceInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1020" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

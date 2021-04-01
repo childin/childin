@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T01:51:03.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="D0_IvokxyMVHMzHamZ7z" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-01T01:51:40.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="tE70H49yekW8Yn9_0ylt" version="14.5.3" type="github">
   <diagram id="0kAya-y3L0eqNiJAjyWb" name="第 1 页">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
           <mxGeometry x="-575" y="530" width="170" height="85" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-30" value="初始化DefaultEurekaServerConfig：在构造方法中调用init()方法进行初始化操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="847.5" y="615" width="155" height="65" as="geometry" />
+          <mxGeometry x="843.75" y="615" width="162.5" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

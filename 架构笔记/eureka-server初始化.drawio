@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T02:11:27.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="S8h5uKqX0j8SC2G81DRV" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-01T02:13:20.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="0eVlkurj9KMCckMAXP9c" version="14.5.3" type="github">
   <diagram id="0kAya-y3L0eqNiJAjyWb" name="第 1 页">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="eN4npGuOjzb6daEbdw4c-1" value="启动类加载&lt;br&gt;EurekaBootStrap" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eN4npGuOjzb6daEbdw4c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eN4npGuOjzb6daEbdw4c-2" target="eN4npGuOjzb6daEbdw4c-4" edge="1">
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eN4npGuOjzb6daEbdw4c-2" target="eN4npGuOjzb6daEbdw4c-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eN4npGuOjzb6daEbdw4c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.547;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eN4npGuOjzb6daEbdw4c-2" target="eN4npGuOjzb6daEbdw4c-6" edge="1">
+        <mxCell id="8Zal4r8ABGyTjFka4S3z-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eN4npGuOjzb6daEbdw4c-2" target="eN4npGuOjzb6daEbdw4c-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN4npGuOjzb6daEbdw4c-2" value="contextInitialized()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -23,16 +23,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN4npGuOjzb6daEbdw4c-4" value="初始化环境&lt;br&gt;initEurekaEnviroment()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-22" y="290" width="130" height="60" as="geometry" />
+          <mxGeometry x="-7" y="330" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-12" value="初始化配置信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eN4npGuOjzb6daEbdw4c-6" target="bof5cll0JK7fXOrSM6Fl-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="430" />
+              <mxPoint x="796" y="430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eN4npGuOjzb6daEbdw4c-6" target="8Zal4r8ABGyTjFka4S3z-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN4npGuOjzb6daEbdw4c-6" value="初始化server context&lt;br&gt;initEurekaServerContext()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="330" width="150" height="60" as="geometry" />
+          <mxGeometry x="890" y="330" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-18" value="初始化ConfigurationManager" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8Zal4r8ABGyTjFka4S3z-11" target="bof5cll0JK7fXOrSM6Fl-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,70 +49,70 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-1" value="通过ConfigurationManager获取eureka.datacenter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-217" y="570" width="130" height="60" as="geometry" />
+          <mxGeometry x="-202" y="610" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-5" value="调用ConfigurationManager实例设置archaius.deployment.datacenter&lt;br&gt;=datacenter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="720" width="180" height="60" as="geometry" />
+          <mxGeometry x="-125" y="760" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-31" value="初始化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bof5cll0JK7fXOrSM6Fl-11" target="8Zal4r8ABGyTjFka4S3z-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-11" value="通过面向接口编程的方式初始化EurekaServerConfig对象，实例化对象为DefaultEurekaServerConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="470" width="150" height="70" as="geometry" />
+          <mxGeometry x="721" y="470" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bof5cll0JK7fXOrSM6Fl-15" target="bof5cll0JK7fXOrSM6Fl-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-15" value="ConfigurationManager初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="-535" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bof5cll0JK7fXOrSM6Fl-16" target="8Zal4r8ABGyTjFka4S3z-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bof5cll0JK7fXOrSM6Fl-16" value="调用static静态代码块初始化配置信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="-535" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-8" value="&lt;span&gt;调用ConfigurationManager实例设置archaius.deployment.datacenter&lt;/span&gt;&lt;br&gt;&lt;span&gt;=default&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-344" y="720" width="180" height="60" as="geometry" />
+          <mxGeometry x="-329" y="760" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-26" value="获取配置中心数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-11" target="bof5cll0JK7fXOrSM6Fl-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="20" y="500" />
-              <mxPoint x="-152" y="500" />
+              <mxPoint x="35" y="540" />
+              <mxPoint x="-137" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-27" value="获取环境配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-11" target="8Zal4r8ABGyTjFka4S3z-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="60" y="500" />
-              <mxPoint x="230" y="500" />
+              <mxPoint x="75" y="540" />
+              <mxPoint x="245" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-11" value="加载系统默认配置信息，并放入ConfigurationManager进行管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-17" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-20" value="env==null" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8Zal4r8ABGyTjFka4S3z-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="193" y="620" as="sourcePoint" />
+            <mxPoint x="208" y="660" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-21" value="env!=null" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-22" target="8Zal4r8ABGyTjFka4S3z-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-22" value="通过ConfigurationManager获取eureka.environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="156" y="570" width="147" height="50" as="geometry" />
+          <mxGeometry x="171" y="610" width="147" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-23" value="调用ConfigurationManager实例设置archaius.deployment.environment&lt;br&gt;=environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="720" width="180" height="60" as="geometry" />
+          <mxGeometry x="265" y="760" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-24" value="&lt;span&gt;调用ConfigurationManager实例设置&lt;/span&gt;archaius.deployment.environment&lt;br&gt;&lt;span&gt;=test&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="46" y="720" width="190" height="60" as="geometry" />
+          <mxGeometry x="61" y="760" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-28" value="调用createDdfaultConfigInstance初始化配置信息AbstractConfiguration，并是ConfigurationManager实例持有该配置信息实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-575" y="530" width="170" height="85" as="geometry" />
+          <mxGeometry x="-560" y="570" width="170" height="85" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-30" target="8Zal4r8ABGyTjFka4S3z-32">
           <mxGeometry relative="1" as="geometry" />
@@ -116,22 +121,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-30" value="初始化DefaultEurekaServerConfig：在构造方法中调用init()方法进行初始化操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="723.75" y="615" width="162.5" height="65" as="geometry" />
+          <mxGeometry x="714.75" y="615" width="162.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-32" value="通过ConfigurationManager再次获取environment环境配置，并设置回manager实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="750" width="160" height="60" as="geometry" />
+          <mxGeometry x="491" y="750" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-37" value="加载eureka-server.properties配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Zal4r8ABGyTjFka4S3z-34" target="8Zal4r8ABGyTjFka4S3z-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-34" value="通过DynamicPropertyProperty对象获取配置信息eureka.server.props，实际就是eureka-server配置文件名，如果为null，则使用默认配置文件名：eureka-server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="699.38" y="750" width="211.25" height="70" as="geometry" />
+          <mxGeometry x="690.38" y="750" width="211.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-36" value="根据获取的配置文件名拼接配置文件，在配置文件名后面拼接.properties后缀，然后加载配置信息，并封装到AbstractConfiguration子类ConcurrentMapConfiguration中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="705.01" y="920" width="200" height="80" as="geometry" />
+          <mxGeometry x="696.01" y="920" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8Zal4r8ABGyTjFka4S3z-38" value="初始化ApplicationInfoManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="470" width="170" height="70" as="geometry" />
+          <mxGeometry x="1071" y="470" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
